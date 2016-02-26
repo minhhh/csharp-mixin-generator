@@ -1,0 +1,10 @@
+using UnityEngine;
+using System.Collections;
+
+{namespaceStart}{#body}
+[RequireComponent (typeof(Rigidbody2D), typeof(Collider2D))]
+{public}partial class {class} : MonoBehavior
+{
+    // somecode
+}{/body}
+{namespaceEnd}

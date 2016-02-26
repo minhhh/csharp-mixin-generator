@@ -1,0 +1,36 @@
+{
+  "name": "csharp-mixin-generator",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Ha.Minh",
+  "description": "Generate mixin for C# using partial class template",
+  "contributors": [],
+  "bin": {
+    "csharp-mixin-generator": "./index.js"
+  },
+  "scripts": {
+    "test": "csharp-mixin-generator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minhhh/csharp-mixin-generator.git"
+  },
+  "keywords": [
+    "cli",
+    "C#",
+    "Csharp",
+    "mixin",
+    "generator"
+  ],
+  "dependencies": {
+    "async": "^1.5.0",
+    "docopt": "^0.6.2",
+    "dustjs-linkedin": "^2.7.2"
+  },
+  "analyze": false,
+  "devDependencies": {},
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
