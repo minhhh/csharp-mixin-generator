@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+/*jshint multistr: true */
+
 var async = require('async');
 var docopt = require('docopt');
 var readline = require('readline');
@@ -77,7 +80,7 @@ function main(args) {
 if (require.main === module) {
     var kwargs = {
         name: "csharp-mixin-generator",
-        version: "csharp-mixin-generator 0.1.1"
+        version: "csharp-mixin-generator 0.1.2"
     };
     var args = docopt.docopt(doc, kwargs);
     main(args);
