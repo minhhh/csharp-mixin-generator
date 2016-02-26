@@ -77,7 +77,7 @@ function main(args) {
 if (require.main === module) {
     var kwargs = {
         name: "csharp-mixin-generator",
-        version: "csharp-mixin-generator 0.1.0"
+        version: "csharp-mixin-generator 0.1.1"
     };
     var args = docopt.docopt(doc, kwargs);
     main(args);
